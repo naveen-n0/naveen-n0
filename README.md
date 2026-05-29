@@ -1,16 +1,41 @@
-## Hi there 👋
+<h1 align="center">Hi 👋, I'm Naveen</h1>
 
-<!--
-**naveen-n0/naveen-n0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h3 align="center">
+Cybersecurity Student | Ethical Hacking Enthusiast | Python Developer
+</h3>
 
-Here are some ideas to get you started:
+<p align="center">
+🎓 B.E Cybersecurity <br>
+🛡️ Penetration Testing | Network Security | Digital Forensics <br>
+🤖 Exploring AI in Cybersecurity
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&center=true&width=700&lines=Cybersecurity+Student;Python+Developer;Ethical+Hacking+Learner;AI+Security+Explorer" />
+</p>
+
+---
+
+## 🛡️ About Me
+
+- 🎓 B.E Cybersecurity Student
+- 🏆 Active CTF Learner
+- 🔍 Learning Penetration Testing
+- 🐍 Building Security Tools using Python
+- 🤖 Interested in AI-Powered Cybersecurity
+
+---
+
+## 🚀 Featured Projects
+
+### 🔐 Caesar Cipher Tool
+Encryption and Decryption using Python.
+
+### 🖼️ Image Encryption Tool
+Pixel-level XOR Image Encryption.
+
+### 🔒 Password Strength Analyzer
+Password Security Evaluation Tool.
+
+### 📡 Packet Analyzer
+Scapy-based Network Packet Capture Tool.
