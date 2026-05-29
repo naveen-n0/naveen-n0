@@ -314,6 +314,6 @@
 <!-- FOOTER WAVE -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:b5ff2d,50:0d2b1a,100:0a0e0f&height=120&section=footer&text=naveen%40secure:~%24%20_&fontSize=20&fontColor=b5ff2d&fontAlignY=65&animation=twinkling" />
 
-<sub><code>⬡ naveen@secure:~$ ./connect.sh --handshake --secure --ready</code></sub>
+<sub><code>⬡ naveen@gmail.com ./connect.sh --handshake --secure --ready</code></sub>
 
 </div>
