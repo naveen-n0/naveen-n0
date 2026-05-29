@@ -1,778 +1,319 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Naveen N — Cybersecurity Engineer</title>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&family=Fraunces:ital,wght@0,300;0,600;1,300&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --bg: #0a0e0f;
-    --surface: #111618;
-    --card: #141a1c;
-    --accent: #00e5a0;
-    --accent2: #00b8d4;
-    --accent3: #ff6b35;
-    --text: #e8f0ef;
-    --muted: #7a9090;
-    --border: #1e2c2e;
-    --glow: 0 0 24px rgba(0,229,160,0.15);
-  }
+<div align="center">
 
-  * { margin:0; padding:0; box-sizing:border-box; }
+<!-- ANIMATED HEADER BANNER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e0f,50:0d2b1a,100:b5ff2d&height=200&section=header&text=NAVEEN%20N&fontSize=72&fontColor=b5ff2d&fontAlignY=38&desc=Cybersecurity%20Engineer%20%7C%20VAPT%20%7C%20Malware%20Analyst%20%7C%20Digital%20Forensics&descAlignY=58&descSize=18&animation=twinkling" />
 
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'DM Mono', monospace;
-    font-size: 11px;
-    line-height: 1.6;
-    min-height: 100vh;
-  }
+<!-- TYPING ANIMATION -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2000&pause=800&color=B5FF2D&center=true&vCenter=true&repeat=true&width=900&lines=⬡+Cybersecurity+Engineer+⬡;⚡+Vulnerability+Assessment+%26+Penetration+Testing;🛡️+Malware+Analysis+%26+Digital+Forensics;🤖+AI-Powered+Threat+Detection;☁️+Cloud+Security+Learner;🔐+Turning+Vulnerabilities+into+Victories" alt="Typing SVG" /></a>
 
-  .page {
-    width: 210mm;
-    min-height: 297mm;
-    margin: 0 auto;
-    background: var(--bg);
-    position: relative;
-    overflow: hidden;
-  }
+<br/>
 
-  /* Background grid */
-  .page::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-image:
-      linear-gradient(rgba(0,229,160,0.03) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(0,229,160,0.03) 1px, transparent 1px);
-    background-size: 28px 28px;
-    pointer-events: none;
-  }
+<!-- STATUS BADGES -->
+<img src="https://img.shields.io/badge/CGPA-9.30-b5ff2d?style=for-the-badge&labelColor=0a0e0f&color=b5ff2d" />
+<img src="https://img.shields.io/badge/Status-Open_to_Work-00f5d4?style=for-the-badge&labelColor=0a0e0f&color=00f5d4" />
+<img src="https://img.shields.io/badge/Specialization-Cybersecurity-ff6b00?style=for-the-badge&labelColor=0a0e0f&color=ff6b00" />
+<img src="https://komarev.com/ghpvc/?username=naveen-n0&label=Profile+Views&color=b5ff2d&style=for-the-badge&labelColor=0a0e0f" />
 
-  /* Glow orb */
-  .page::after {
-    content: '';
-    position: absolute;
-    top: -80px;
-    right: -80px;
-    width: 320px;
-    height: 320px;
-    background: radial-gradient(circle, rgba(0,229,160,0.07) 0%, transparent 70%);
-    pointer-events: none;
-  }
-
-  /* ─── HEADER ─── */
-  .header {
-    padding: 36px 40px 24px;
-    border-bottom: 1px solid var(--border);
-    position: relative;
-  }
-
-  .header-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 24px;
-  }
-
-  .name-block {}
-
-  .name {
-    font-family: 'Syne', sans-serif;
-    font-size: 42px;
-    font-weight: 800;
-    letter-spacing: -1px;
-    line-height: 1;
-    color: var(--text);
-  }
-
-  .name span {
-    color: var(--accent);
-  }
-
-  .tagline {
-    font-family: 'DM Mono', monospace;
-    font-size: 10.5px;
-    color: var(--accent);
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-top: 8px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-
-  .tagline::before {
-    content: '';
-    display: inline-block;
-    width: 18px;
-    height: 1px;
-    background: var(--accent);
-  }
-
-  .contact-block {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    align-items: flex-end;
-    padding-top: 4px;
-  }
-
-  .contact-item {
-    font-size: 9.5px;
-    color: var(--muted);
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-family: 'DM Mono', monospace;
-  }
-
-  .contact-item .icon {
-    color: var(--accent);
-    font-size: 9px;
-  }
-
-  .contact-item a {
-    color: var(--muted);
-    text-decoration: none;
-  }
-  .contact-item a:hover { color: var(--accent); }
-
-  /* ─── BODY LAYOUT ─── */
-  .body {
-    display: grid;
-    grid-template-columns: 1fr 220px;
-    gap: 0;
-    padding: 0;
-  }
-
-  .main-col {
-    padding: 24px 28px 32px 40px;
-    border-right: 1px solid var(--border);
-  }
-
-  .side-col {
-    padding: 24px 24px 32px 20px;
-  }
-
-  /* ─── SECTION ─── */
-  .section {
-    margin-bottom: 22px;
-  }
-
-  .section-title {
-    font-family: 'Syne', sans-serif;
-    font-size: 9px;
-    font-weight: 700;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: var(--accent);
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-
-  .section-title::after {
-    content: '';
-    flex: 1;
-    height: 1px;
-    background: linear-gradient(90deg, var(--border), transparent);
-  }
-
-  /* ─── OBJECTIVE ─── */
-  .objective-text {
-    font-family: 'Fraunces', serif;
-    font-size: 11px;
-    font-weight: 300;
-    color: #b0c4c2;
-    line-height: 1.75;
-    font-style: italic;
-    border-left: 2px solid var(--accent);
-    padding-left: 12px;
-  }
-
-  /* ─── PROJECT ─── */
-  .project {
-    margin-bottom: 14px;
-    padding: 10px 12px;
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    position: relative;
-  }
-
-  .project::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background: linear-gradient(180deg, var(--accent), var(--accent2));
-    border-radius: 4px 0 0 4px;
-  }
-
-  .project-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 4px;
-    gap: 8px;
-  }
-
-  .project-name {
-    font-family: 'Syne', sans-serif;
-    font-size: 10.5px;
-    font-weight: 700;
-    color: var(--text);
-  }
-
-  .project-year {
-    font-size: 8.5px;
-    color: var(--accent);
-    white-space: nowrap;
-    font-family: 'DM Mono', monospace;
-    background: rgba(0,229,160,0.08);
-    padding: 1px 6px;
-    border-radius: 2px;
-  }
-
-  .project-stack {
-    font-size: 8.5px;
-    color: var(--accent2);
-    margin-bottom: 6px;
-    font-family: 'DM Mono', monospace;
-  }
-
-  .project-points {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
-  }
-
-  .project-points li {
-    font-size: 9.5px;
-    color: #8ea8a5;
-    padding-left: 12px;
-    position: relative;
-    line-height: 1.5;
-  }
-
-  .project-points li::before {
-    content: '▸';
-    position: absolute;
-    left: 0;
-    color: var(--accent);
-    font-size: 8px;
-    top: 1px;
-  }
-
-  /* ─── INTERNSHIP ─── */
-  .internship {
-    margin-bottom: 12px;
-    padding-left: 10px;
-    border-left: 1px solid var(--border);
-  }
-
-  .intern-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 3px;
-  }
-
-  .intern-name {
-    font-family: 'Syne', sans-serif;
-    font-size: 10px;
-    font-weight: 700;
-    color: var(--text);
-  }
-
-  .intern-date {
-    font-size: 8.5px;
-    color: var(--accent3);
-    font-family: 'DM Mono', monospace;
-  }
-
-  .intern-org {
-    font-size: 9px;
-    color: var(--muted);
-    margin-bottom: 4px;
-    font-style: italic;
-  }
-
-  .intern-points {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-  }
-
-  .intern-points li {
-    font-size: 9px;
-    color: #8ea8a5;
-    padding-left: 10px;
-    position: relative;
-    line-height: 1.5;
-  }
-
-  .intern-points li::before {
-    content: '◆';
-    position: absolute;
-    left: 0;
-    color: var(--accent2);
-    font-size: 5px;
-    top: 3px;
-  }
-
-  /* ─── SIDEBAR COMPONENTS ─── */
-
-  /* Education */
-  .edu-item {
-    margin-bottom: 12px;
-    padding: 8px 10px;
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-  }
-
-  .edu-degree {
-    font-family: 'Syne', sans-serif;
-    font-size: 9.5px;
-    font-weight: 700;
-    color: var(--text);
-    margin-bottom: 2px;
-  }
-
-  .edu-school {
-    font-size: 8.5px;
-    color: var(--muted);
-    margin-bottom: 3px;
-    line-height: 1.4;
-  }
-
-  .edu-meta {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .edu-score {
-    font-size: 9px;
-    color: var(--accent);
-    font-weight: 500;
-  }
-
-  .edu-year {
-    font-size: 8px;
-    color: var(--muted);
-  }
-
-  /* Skills */
-  .skill-group {
-    margin-bottom: 10px;
-  }
-
-  .skill-label {
-    font-size: 8px;
-    color: var(--accent2);
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    margin-bottom: 5px;
-    font-family: 'Syne', sans-serif;
-    font-weight: 600;
-  }
-
-  .skill-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px;
-  }
-
-  .tag {
-    font-size: 8px;
-    padding: 2px 6px;
-    border-radius: 2px;
-    font-family: 'DM Mono', monospace;
-    background: rgba(255,255,255,0.04);
-    border: 1px solid var(--border);
-    color: #9ab8b5;
-  }
-
-  .tag.accent { border-color: rgba(0,229,160,0.3); color: var(--accent); background: rgba(0,229,160,0.05); }
-  .tag.accent2 { border-color: rgba(0,184,212,0.3); color: var(--accent2); background: rgba(0,184,212,0.05); }
-
-  /* Certifications */
-  .cert-item {
-    margin-bottom: 6px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 6px;
-  }
-
-  .cert-name {
-    font-size: 8.5px;
-    color: #9ab8b5;
-    flex: 1;
-    line-height: 1.4;
-  }
-
-  .cert-date {
-    font-size: 7.5px;
-    color: var(--muted);
-    white-space: nowrap;
-    font-family: 'DM Mono', monospace;
-  }
-
-  /* Responsibilities */
-  .resp-item {
-    margin-bottom: 6px;
-    display: flex;
-    align-items: flex-start;
-    gap: 6px;
-  }
-
-  .resp-dot {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: var(--accent);
-    margin-top: 4px;
-    flex-shrink: 0;
-  }
-
-  .resp-text {
-    font-size: 8.5px;
-    color: #9ab8b5;
-    line-height: 1.4;
-  }
-
-  .resp-role {
-    font-weight: 500;
-    color: var(--text);
-    font-family: 'Syne', sans-serif;
-    font-size: 8.5px;
-  }
-
-  /* Achievements */
-  .achievement-item {
-    margin-bottom: 6px;
-    padding: 6px 8px;
-    background: rgba(255,107,53,0.06);
-    border: 1px solid rgba(255,107,53,0.2);
-    border-radius: 3px;
-    font-size: 8.5px;
-    color: #c0a898;
-    line-height: 1.4;
-  }
-
-  .achievement-item::before {
-    content: '🏆 ';
-    font-size: 9px;
-  }
-
-  /* Status badge */
-  .status-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    font-size: 8px;
-    color: var(--accent);
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    margin-top: 6px;
-    font-family: 'DM Mono', monospace;
-  }
-
-  .status-dot {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: var(--accent);
-    animation: pulse 2s infinite;
-  }
-
-  @keyframes pulse {
-    0%, 100% { opacity: 1; transform: scale(1); }
-    50% { opacity: 0.5; transform: scale(0.8); }
-  }
-
-  /* Print */
-  @media print {
-    body { background: #0a0e0f !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-    .page { width: 100%; }
-    * { animation: none !important; }
-  }
-
-  @media screen {
-    body { padding: 20px 0 40px; }
-    .page { box-shadow: 0 0 80px rgba(0,0,0,0.8), 0 0 1px rgba(0,229,160,0.2); }
-  }
-</style>
-</head>
-<body>
-<div class="page">
-
-  <!-- HEADER -->
-  <div class="header">
-    <div class="header-top">
-      <div class="name-block">
-        <div class="name">NAVEEN<span> N</span></div>
-        <div class="tagline">Turning Vulnerabilities into Victories</div>
-        <div class="status-badge">
-          <span class="status-dot"></span>
-          Cybersecurity Engineer
-        </div>
-      </div>
-      <div class="contact-block">
-        <div class="contact-item"><span class="icon">📞</span> +91-6379731157</div>
-        <div class="contact-item"><span class="icon">✉</span> naveen171105@gmail.com</div>
-        <div class="contact-item"><span class="icon">📍</span> Chennai, Tamil Nadu</div>
-        <div class="contact-item"><span class="icon">🔗</span> <a href="https://linkedin.com/in/naveen-cys">linkedin.com/in/naveen-cys</a></div>
-        <div class="contact-item"><span class="icon">🐙</span> <a href="https://github.com/naveen-n0">github.com/naveen-n0</a></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- BODY -->
-  <div class="body">
-
-    <!-- MAIN COLUMN -->
-    <div class="main-col">
-
-      <!-- Career Objective -->
-      <div class="section">
-        <div class="section-title">Career Objective</div>
-        <div class="objective-text">
-          Aspiring Cybersecurity professional with a strong foundation in network security, threat analysis, and ethical hacking, seeking a challenging role as a System Engineer. Eager to leverage technical expertise to design, implement, and maintain secure systems, ensuring robust protection of organizational IT infrastructure while contributing to innovative cybersecurity solutions.
-        </div>
-      </div>
-
-      <!-- Projects -->
-      <div class="section">
-        <div class="section-title">Projects</div>
-
-        <div class="project">
-          <div class="project-header">
-            <div class="project-name">ML-Powered Malware Detector</div>
-            <div class="project-year">2025</div>
-          </div>
-          <div class="project-stack">Python · Random Forest · Flask · CICIDS-2017</div>
-          <ul class="project-points">
-            <li>Developed an ML-powered web tool to detect malware in network traffic by analyzing PCAP files.</li>
-            <li>Enabled users to upload and analyze traffic to identify potential malicious activity.</li>
-            <li>Applied Random Forest for classifying traffic as benign or malicious based on extracted features.</li>
-          </ul>
-        </div>
-
-        <div class="project">
-          <div class="project-header">
-            <div class="project-name">Dual-Layer Defense Framework for Aadhaar-Based Identity Leaks</div>
-            <div class="project-year">2026</div>
-          </div>
-          <div class="project-stack">Python · Flask · SQLite · Regex · Telethon</div>
-          <ul class="project-points">
-            <li>Developed a real-time PII leak detection system for Aadhaar, PAN, UPI, and mobile data from public sources.</li>
-            <li>Built automated scraping, severity scoring, and alert mechanisms using Flask and regex-based analysis.</li>
-            <li>Implemented canary records for breach attribution and forensic tracking.</li>
-          </ul>
-        </div>
-
-        <div class="project">
-          <div class="project-header">
-            <div class="project-name">SecureScan Enterprise — AI-Powered Document Threat Detector</div>
-            <div class="project-year">2025</div>
-          </div>
-          <div class="project-stack">Python · Flask · YARA · SQLite · ReportLab · Three.js · PyInstaller</div>
-          <ul class="project-points">
-            <li>Built a self-contained Windows application to scan PDF and DOCX files for hidden malware using YARA signatures and deep heuristic analysis.</li>
-            <li>Engineered a unique Metadata Forensics Engine to extract author, revision history, and creation-tool anomalies as forensic indicators.</li>
-            <li>Implemented CDR (Content Disarm & Reconstruction) to de-weaponize malicious files and serve clean downloads.</li>
-            <li>Delivered a 3D holographic report viewer (Three.js), PDF audit reports, rate-limited REST API, and session-based auth portal.</li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Internships -->
-      <div class="section">
-        <div class="section-title">Internships</div>
-
-        <div class="internship">
-          <div class="intern-header">
-            <div class="intern-name">Cybersecurity Internship</div>
-            <div class="intern-date">Jul – Oct 2025</div>
-          </div>
-          <div class="intern-org">AICTE Edu-Tantr · Online / Offline</div>
-          <ul class="intern-points">
-            <li>Received practical exposure to cybersecurity principles and network defense mechanisms.</li>
-            <li>Studied cryptography, authentication protocols, and system security practices.</li>
-            <li>Worked with Kali Linux, Wireshark, Nmap, and cyber forensics utilities.</li>
-          </ul>
-        </div>
-
-        <div class="internship">
-          <div class="intern-header">
-            <div class="intern-name">Cybersecurity Internship</div>
-            <div class="intern-date">2025</div>
-          </div>
-          <div class="intern-org">Prodigy InfoTech · Online</div>
-          <ul class="intern-points">
-            <li>Gained hands-on experience in ethical hacking and vulnerability assessment.</li>
-            <li>Worked on network scanning, traffic analysis, and security testing using industry-standard tools.</li>
-            <li>Utilized Kali Linux, Wireshark, Nmap, and penetration testing utilities.</li>
-          </ul>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- SIDE COLUMN -->
-    <div class="side-col">
-
-      <!-- Education -->
-      <div class="section">
-        <div class="section-title">Education</div>
-
-        <div class="edu-item">
-          <div class="edu-degree">B.E. in Cyber Security</div>
-          <div class="edu-school">SRM Valliammai Engineering College, Kattankulathur</div>
-          <div class="edu-meta">
-            <span class="edu-score">Current</span>
-            <span class="edu-year">2023 – Present</span>
-          </div>
-        </div>
-
-        <div class="edu-item">
-          <div class="edu-degree">HSC</div>
-          <div class="edu-school">Saraswathi Matric. Hr. Sec. School, Salem</div>
-          <div class="edu-meta">
-            <span class="edu-score">88%</span>
-            <span class="edu-year">2022 – 2023</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Technical Skills -->
-      <div class="section">
-        <div class="section-title">Technical Skills</div>
-
-        <div class="skill-group">
-          <div class="skill-label">Languages</div>
-          <div class="skill-tags">
-            <span class="tag accent">Python</span>
-            <span class="tag accent">Java</span>
-            <span class="tag">SQL</span>
-            <span class="tag">HTML</span>
-            <span class="tag">CSS</span>
-          </div>
-        </div>
-
-        <div class="skill-group">
-          <div class="skill-label">Security Tools</div>
-          <div class="skill-tags">
-            <span class="tag accent2">Wireshark</span>
-            <span class="tag accent2">Nmap</span>
-            <span class="tag accent2">Burp Suite</span>
-            <span class="tag">VMware</span>
-            <span class="tag">VirtualBox</span>
-            <span class="tag">Git</span>
-          </div>
-        </div>
-
-        <div class="skill-group">
-          <div class="skill-label">Operating Systems</div>
-          <div class="skill-tags">
-            <span class="tag">Kali Linux</span>
-            <span class="tag">Windows</span>
-            <span class="tag">iOS</span>
-          </div>
-        </div>
-
-        <div class="skill-group">
-          <div class="skill-label">Cloud (Learning)</div>
-          <div class="skill-tags">
-            <span class="tag">AWS VPC</span>
-            <span class="tag">IAM</span>
-            <span class="tag">EC2</span>
-            <span class="tag">S3</span>
-          </div>
-        </div>
-
-        <div class="skill-group">
-          <div class="skill-label">Interests</div>
-          <div class="skill-tags">
-            <span class="tag">Network Security</span>
-            <span class="tag">Malware Analysis</span>
-            <span class="tag">Digital Forensics</span>
-            <span class="tag">Cloud Security</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Certifications -->
-      <div class="section">
-        <div class="section-title">Certifications</div>
-        <div class="cert-item">
-          <div class="cert-name">Digital Maturity Diagnostic Framework</div>
-          <div class="cert-date">Apr 2026</div>
-        </div>
-        <div class="cert-item">
-          <div class="cert-name">Cloud Security (VAC)</div>
-          <div class="cert-date">Jul–Oct 2025</div>
-        </div>
-        <div class="cert-item">
-          <div class="cert-name">Penetration Testing (VAC)</div>
-          <div class="cert-date">Aug–Oct 2024</div>
-        </div>
-        <div class="cert-item">
-          <div class="cert-name">Python Full Stack Web Dev (Django)</div>
-          <div class="cert-date">Jan–Jun 2024</div>
-        </div>
-        <div class="cert-item">
-          <div class="cert-name">Diploma in Computer Application</div>
-          <div class="cert-date">2018</div>
-        </div>
-      </div>
-
-      <!-- Roles -->
-      <div class="section">
-        <div class="section-title">Leadership</div>
-        <div class="resp-item">
-          <div class="resp-dot"></div>
-          <div class="resp-text"><span class="resp-role">Vice President</span> — Whitehatians Club</div>
-        </div>
-        <div class="resp-item">
-          <div class="resp-dot"></div>
-          <div class="resp-text"><span class="resp-role">Administrative Head</span> — CSI Student Branch</div>
-        </div>
-        <div class="resp-item">
-          <div class="resp-dot"></div>
-          <div class="resp-text"><span class="resp-role">Event Manager</span> — Zyverse 2k25</div>
-        </div>
-        <div class="resp-item">
-          <div class="resp-dot"></div>
-          <div class="resp-text"><span class="resp-role">Volunteer</span> — Zyverse 2k24</div>
-        </div>
-        <div class="resp-item">
-          <div class="resp-dot"></div>
-          <div class="resp-text"><span class="resp-role">Member</span> — ISTE</div>
-        </div>
-      </div>
-
-      <!-- Achievements -->
-      <div class="section">
-        <div class="section-title">Achievements</div>
-        <div class="achievement-item">Highest CGPA — 4th Semester, College Day 2026</div>
-        <div class="achievement-item">Junior Grade Typewriting English — First Class</div>
-      </div>
-
-    </div>
-  </div>
 </div>
-</body>
-</html>
+
+---
+
+<!-- ABOUT SECTION with SVG card -->
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║  naveen@secure:~$ whoami                                        ║
+║  ▶  B.E. Cyber Security · SRM Valliammai Engineering College    ║
+║  ▶  Chennai, Tamil Nadu, India                                  ║
+║  ▶  VP @ Whitehatians Club | Admin Head @ CSI Student Branch    ║
+║  ▶  CGPA: 9.30 | Highest CGPA Award — College Day 2026         ║
+║  ▶  naveen171105@gmail.com                                      ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+---
+
+## ⬡ Cybersecurity Snapshot
+
+<table>
+<tr>
+<td width="50%">
+
+**🔴 Offensive Security**
+- Penetration Testing
+- Vulnerability Assessment & Exploitation
+- Web Application Security Testing
+- Reconnaissance & OSINT
+- Ethical Hacking Methodology
+
+</td>
+<td width="50%">
+
+**🔵 Defensive Security**
+- Network Traffic Monitoring
+- ML-Powered Malware Detection
+- Threat Analysis & Incident Response
+- Digital Forensics & Investigation
+- PII Leak Detection & Canary Records
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🚀 Flagship Projects
+
+<details>
+<summary><b>🤖 ML-Powered Malware Detector</b> &nbsp;|&nbsp; <code>Python · Flask · Random Forest · CICIDS-2017</code></summary>
+<br/>
+
+> **Real-time threat detection from raw network traffic**
+
+| Component | Detail |
+|-----------|--------|
+| 📦 Input | PCAP file upload via web interface |
+| ⚙️ Engine | Random Forest classifier on CICIDS-2017 features |
+| 🎯 Output | Benign / Malicious classification with confidence |
+| 🖥️ Stack | Python, Flask, Scikit-learn, Pandas |
+
+- Extracts 80+ network flow features automatically from PCAP files
+- Student-friendly threat analysis dashboard with visual results
+- Trained on the CICIDS-2017 benchmark intrusion detection dataset
+
+</details>
+
+---
+
+<details>
+<summary><b>🔐 Dual-Layer Defense Framework for Aadhaar-Based Identity Leaks</b> &nbsp;|&nbsp; <code>Python · Flask · SQLite · Regex · Telethon</code></summary>
+<br/>
+
+> **Real-time PII exfiltration monitoring across public sources**
+
+| Layer | Function |
+|-------|----------|
+| 🕵️ Detection | Regex-based scraping for Aadhaar, PAN, UPI, Mobile |
+| 📊 Scoring | Severity scoring engine with alert thresholds |
+| 🕯️ Attribution | Canary records for forensic breach tracking |
+| 🔔 Alerting | Automated multi-channel alert generation |
+
+- Monitors public channels, forums, and data dumps in real time
+- Severity scoring engine prioritizes critical leak events
+- Canary injection enables breach-source attribution
+
+</details>
+
+---
+
+<details>
+<summary><b>🛡️ SecureScan Enterprise — AI-Powered Document Threat Detector</b> &nbsp;|&nbsp; <code>Python · Flask · YARA · Three.js · ReportLab</code></summary>
+<br/>
+
+> **Enterprise-grade document malware scanner with 3D holographic reporting**
+
+| Feature | Implementation |
+|---------|----------------|
+| 🔍 YARA Scanning | Signature-based hidden malware detection in PDF & DOCX |
+| 🧬 Metadata Forensics | Author, revision history & creation-tool anomaly extraction |
+| 🧹 CDR | Content Disarm & Reconstruction for weaponized files |
+| 📊 Reports | 3D holographic viewer (Three.js) + PDF audit trail |
+| 🔐 Auth | Session-based authentication portal |
+| ⚡ API | Rate-limited REST API with full documentation |
+
+- Packaged as a self-contained Windows application via PyInstaller
+- Zero-dependency deployment for enterprise air-gapped environments
+
+</details>
+
+---
+
+## ⚡ Security Arsenal
+
+<div align="center">
+
+### 💻 Languages
+![Python](https://img.shields.io/badge/Python-b5ff2d?style=for-the-badge&logo=python&logoColor=0a0e0f)
+![Java](https://img.shields.io/badge/Java-00f5d4?style=for-the-badge&logo=openjdk&logoColor=0a0e0f)
+![SQL](https://img.shields.io/badge/SQL-ff6b00?style=for-the-badge&logo=mysql&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-ff6b00?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-00f5d4?style=for-the-badge&logo=css3&logoColor=0a0e0f)
+
+### 🛠 Security Tools
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-004170?style=for-the-badge&logo=nmap&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+### ☁️ Cloud · Learning
+![AWS](https://img.shields.io/badge/AWS_VPC-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![IAM](https://img.shields.io/badge/IAM-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![EC2](https://img.shields.io/badge/EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white)
+![S3](https://img.shields.io/badge/S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
+
+### 🧠 AI/ML Stack
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-b5ff2d?style=for-the-badge&logo=flask&logoColor=0a0e0f)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+
+</div>
+
+---
+
+## 💼 Internship Experience
+
+<table>
+<tr>
+<td width="50%">
+
+### 🔐 Cybersecurity Intern
+**AICTE Edu-Tantr** &nbsp;`Jul – Oct 2025`
+
+- Network Defense Mechanisms
+- Cryptography & Auth Protocols
+- System Security Practices
+- Tools: Kali Linux · Wireshark · Nmap
+
+</td>
+<td width="50%">
+
+### 🔒 Cybersecurity Intern
+**Prodigy InfoTech** &nbsp;`Dec 2025`
+
+- Vulnerability Assessment & Exploitation
+- Network Scanning & Traffic Analysis
+- Security Testing Fundamentals
+- Ethical Hacking Methodology
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=naveen-n0&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=020408&title_color=b5ff2d&icon_color=00f5d4&text_color=7ab89a&ring_color=b5ff2d" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=naveen-n0&theme=chartreuse-dark&hide_border=true&background=020408&ring=b5ff2d&fire=ff6b00&currStreakLabel=b5ff2d&sideLabels=00f5d4" />
+
+<br/>
+
+<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=naveen-n0&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=020408&title_color=b5ff2d&text_color=7ab89a" />
+
+</div>
+
+---
+
+## 📈 Contribution Activity
+
+<div align="center">
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=naveen-n0&theme=chartreuse-dark&hide_border=true&bg_color=020408&color=b5ff2d&line=00f5d4&point=ff6b00" />
+</div>
+
+---
+
+## 🏆 Trophy Board
+
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=naveen-n0&theme=matrix&no-frame=true&row=1&column=7&margin-w=10" />
+</div>
+
+---
+
+## 📜 Certifications
+
+<div align="center">
+
+| Certification | Issuer | Year |
+|--------------|--------|------|
+| 🏅 Digital Maturity Diagnostic Framework | — | Apr 2026 |
+| ☁️ Cloud Security | VAC | Jul–Oct 2025 |
+| 🔓 Penetration Testing | VAC | Aug–Oct 2024 |
+| 🐍 Python Full Stack Web Dev (Django) | — | Jan–Jun 2024 |
+| 💻 Diploma in Computer Application | — | 2018 |
+
+</div>
+
+---
+
+## 👑 Leadership & Community
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                     LEADERSHIP TIMELINE                         │
+├─────────────────────────────────────────────────────────────────┤
+│  ⬡  Vice President        →  Whitehatians Club                 │
+│  ⬡  Administrative Head   →  CSI Student Branch                │
+│  ⬡  Event Manager         →  Zyverse 2K25                      │
+│  ⬡  Volunteer             →  Zyverse 2K24                      │
+│  ⬡  Member                →  ISTE (Indian Soc. Tech. Edu.)     │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+---
+
+## 🏅 Achievements
+
+<div align="center">
+
+🥇 &nbsp; **Highest CGPA Award** — 4th Semester, College Day 2026
+
+⌨️ &nbsp; **Junior Grade Typewriting English** — First Class
+
+</div>
+
+---
+
+## 🔬 Research Interests
+
+<div align="center">
+
+`🤖 AI-Powered Threat Detection` &nbsp; `🔬 Malware Analysis` &nbsp; `🕵️ Identity Leak Detection`
+
+`📂 Digital Forensics` &nbsp; `🧠 Threat Intelligence` &nbsp; `☁️ Cloud Security`
+
+</div>
+
+---
+
+## 🌐 Connect With Me
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/naveen171105@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:naveen171105@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/naveen--cys-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/naveen-cys)
+[![GitHub](https://img.shields.io/badge/naveen--n0-181717?style=for-the-badge&logo=github&logoColor=b5ff2d)](https://github.com/naveen-n0)
+
+</div>
+
+---
+
+## 💡 Personal Motto
+
+<div align="center">
+
+> *"Security is not just about defending systems — it's about understanding attackers before they strike."*
+
+</div>
+
+---
+
+<div align="center">
+
+<!-- FOOTER WAVE -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:b5ff2d,50:0d2b1a,100:0a0e0f&height=120&section=footer&text=naveen%40secure:~%24%20_&fontSize=20&fontColor=b5ff2d&fontAlignY=65&animation=twinkling" />
+
+<sub><code>⬡ naveen@secure:~$ ./connect.sh --handshake --secure --ready</code></sub>
+
+</div>
