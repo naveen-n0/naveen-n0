@@ -1,90 +1,88 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:000000,50:00ff41,100:00e5ff&text=NAVEEN%20N&fontColor=00ff41&fontSize=80&animation=twinkling&desc=Cybersecurity%20Engineer%20|%20Threat%20Hunter%20|%20Malware%20Analyst%20|%20Digital%20Forensics&descSize=22&descAlignY=62"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=280&color=0:0D1117,50:161B22,100:21262D&text=NAVEEN%20N&fontColor=58A6FF&fontSize=75&fontAlignY=42&animation=fadeIn&desc=Cybersecurity%20Engineer%20|%20Threat%20Hunter%20|%20Digital%20Forensics&descAlignY=62&descSize=20"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2500&pause=1000&color=00FF41&center=true&vCenter=true&width=1000&lines=Initializing+Cyber+Defense+Systems...;Loading+Threat+Intelligence+Feeds...;Scanning+for+Vulnerabilities...;Monitoring+Network+Traffic...;Analyzing+Malware+Behavior...;Launching+SOC+Operations+Center...;Access+Granted+%5Broot%5D"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=4000&pause=1000&color=7EE787&center=true&vCenter=true&width=1000&lines=Security+Operations+Center+Online;Monitoring+Threat+Intelligence+Feeds;Analyzing+Malware+Behavior;Performing+Vulnerability+Assessments;Investigating+Security+Incidents;Building+AI-Powered+Security+Solutions"/>
 
 <br>
 
-<img src="https://img.shields.io/badge/CYBER_SECURITY-ENGINEER-00ff41?style=for-the-badge&logo=hackaday&logoColor=black"/>
-<img src="https://img.shields.io/badge/THREAT-HUNTER-00e5ff?style=for-the-badge&logo=securityscorecard&logoColor=black"/>
-<img src="https://img.shields.io/badge/MALWARE-ANALYST-ff003c?style=for-the-badge&logo=virustotal&logoColor=white"/>
-<img src="https://img.shields.io/badge/DIGITAL-FORENSICS-ffaa00?style=for-the-badge&logo=fbi&logoColor=black"/>
+<img src="https://img.shields.io/badge/SOC%20Analyst-58A6FF?style=for-the-badge&logo=securityscorecard&logoColor=white"/>
+<img src="https://img.shields.io/badge/Threat%20Hunter-7EE787?style=for-the-badge&logo=hackthebox&logoColor=black"/>
+<img src="https://img.shields.io/badge/Malware%20Analysis-F85149?style=for-the-badge&logo=virustotal&logoColor=white"/>
+<img src="https://img.shields.io/badge/Digital%20Forensics-F0883E?style=for-the-badge"/>
 
 </div>
 
 ---
 
-# <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="35"> Cyber Defense Command Center
+# Security Operations Center
 
-```bash
-┌──(root㉿naveen)-[~/profile]
-└─$ whoami
+```yaml
+Operator:
+  Name: Naveen N
+  Role: Cyber Security Engineer
+  Education: B.E Cyber Security
+  College: SRM Valliammai Engineering College
+  CGPA: 9.30
 
-Name        : Naveen N
-Role        : Cyber Security Engineer
-Location    : Chennai, Tamil Nadu
-Education   : B.E Cyber Security
-College     : SRM Valliammai Engineering College
-CGPA        : 9.30
-
-Mission:
-Securing Digital Infrastructure Through
-Offensive & Defensive Cybersecurity.
+Focus Areas:
+  - Vulnerability Assessment & Penetration Testing
+  - Malware Analysis
+  - Threat Hunting
+  - Digital Forensics
+  - Network Security
+  - AI Security Solutions
 ```
 
 ---
 
-# Threat Intelligence Dashboard
+## Threat Intelligence Dashboard
 
 ```text
-┌──────────────────────────────────────────────┐
-│      CYBER THREAT INTELLIGENCE PANEL         │
-├──────────────────────────────────────────────┤
-│ Malware Analysis        ████████████ 95%     │
-│ Penetration Testing     ███████████ 92%      │
-│ Digital Forensics       ██████████ 90%       │
-│ Threat Hunting          ███████████ 93%      │
-│ Network Security        ███████████ 94%      │
-│ Cloud Security          ████████ 78%         │
-└──────────────────────────────────────────────┘
+┌─────────────────────────────────────────────┐
+│ SECURITY OPERATIONS CENTER                  │
+├─────────────────────────────────────────────┤
+│ Status               : ONLINE               │
+│ Threat Monitoring    : ACTIVE               │
+│ Incident Response    : READY                │
+│ Security Projects    : OPERATIONAL          │
+│ Research Mode        : ENABLED              │
+└─────────────────────────────────────────────┘
 ```
 
 ---
 
-# Red Team vs Blue Team
+## Active Security Projects
 
-| 🔴 Red Team Operations | 🔵 Blue Team Operations |
-|-----------------------|------------------------|
-| Penetration Testing | Threat Detection |
-| Vulnerability Assessment | Incident Response |
-| Web Application Security | SOC Monitoring |
-| Ethical Hacking | Threat Hunting |
-| Reconnaissance & OSINT | Digital Forensics |
-
----
-
-# Cyber Arsenal
-
-```bash
-┌──(root㉿naveen)-[~/arsenal]
-└─$ ls
-
-📂 malware-detector
-📂 shieldwatch
-📂 screensentry
-📂 securescan-enterprise
-
-4 Security Projects Loaded Successfully
+```text
+[ACTIVE] ScreenSentry
+[ACTIVE] ShieldWatch
+[ACTIVE] SecureScan Enterprise
+[ACTIVE] Malware Detection System
 ```
 
 ---
+
+## Cyber Security Skill Matrix
+
+```text
+Network Security         ██████████ 95%
+Threat Hunting           █████████░ 90%
+Malware Analysis         █████████░ 90%
+Digital Forensics        ████████░░ 85%
+Penetration Testing      █████████░ 90%
+Cloud Security           ███████░░░ 75%
+```
+
+---
+
+## GitHub Intelligence
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=naveen-n0&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=000000"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=naveen-n0&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117"/>
 
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=naveen-n0&theme=chartreuse-dark&hide_border=true&background=000000"/>
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=naveen-n0&theme=github-dark-blue&hide_border=true"/>
 
 </div>
 
@@ -92,31 +90,27 @@ Offensive & Defensive Cybersecurity.
 
 <div align="center">
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=naveen-n0&theme=chartreuse-dark&hide_border=true"/>
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=naveen-n0&bg_color=0D1117&color=58A6FF&line=7EE787&point=F85149&hide_border=true"/>
 
 </div>
 
 ---
 
-<div align="center">
+## Mission Statement
 
-<img src="https://github-profile-trophy.vercel.app/?username=naveen-n0&theme=matrix&no-frame=true&row=1&column=7"/>
-
-</div>
+> Securing digital infrastructure through offensive and defensive cybersecurity techniques, threat intelligence, malware analysis, and innovative AI-powered security solutions.
 
 ---
 
 ```bash
-┌──(root㉿naveen)-[~/status]
-└─$ cat mission.txt
+naveen@soc:~$ status
 
-"Security is not about reacting to threats.
-It is about anticipating them before they exist."
+SYSTEM STATUS      : OPERATIONAL
+THREAT LEVEL       : LOW
+MONITORING         : ACTIVE
+LAST UPDATE        : REAL-TIME
 
-Status               : ONLINE
-Threat Monitoring    : ACTIVE
-Encryption           : ENABLED
-System Integrity     : VERIFIED
+Connection Secure ✓
 ```
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:00e5ff,50:00ff41,100:000000"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=80&color=0:21262D,100:0D1117"/>
